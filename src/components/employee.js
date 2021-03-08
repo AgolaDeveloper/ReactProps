@@ -16,7 +16,7 @@
 
         <div>
             {/* <p>We have {employee.length} properties of our employee</p> */}
-                <p> HERE ARE {props.nam}'s DETAILS' </p>
+                <h1>HERE ARE {props.nam}'s DETAILS'</h1>  
             <ul>
                 <li>Name: {props.nam}</li>
                 <li>Age: {props.age}</li>

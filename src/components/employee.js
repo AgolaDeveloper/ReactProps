@@ -1,6 +1,8 @@
  import React from 'react'
  import './employee.css';
 
+ import Child from './child.js';
+
  function Emp(props){
         //  employee=
         //  {
@@ -9,6 +11,10 @@
             //  var profession= Developer;
             //  var salary= 'KES 230000';
         //  }
+
+    var status= "married";
+    var estate= "Milimani";
+    var children= 3;
          
 
         
@@ -24,6 +30,8 @@
                 <li>Basic Monthly Salary: {props.salary}</li>
 
             </ul>
+
+            <Child status={status}  estate={estate} child={children} />
         </div>
     )
  }
